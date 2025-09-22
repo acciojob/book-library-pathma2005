@@ -1,38 +1,27 @@
-body h1{
-	background-color:#f8f8f8;
-	font-family:Arial,sans-serif;
+body {
+	background-color: #f8f8f8;
+	font-family: Arial, sans-serif;
 }
-h1{
-	text-align:center;
-	color:#333333;
+
+h1 {
+	text-align: center;
+	color: #333333;
 }
-.book-library{
-	background-color:#ffffff;
+
+.book-library {
+	background-color: #ffffff;
 	box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
-    padding:20px;
+	padding: 20px;
 }
-.author{
-	color:#777777;
+
+.book p {
+	color: #777777;
 }
-.price{
-	background-color:#2ecc71;
-	text-align:center;
-	color:white;
-	border-radius:5px;
-	padding:5px 10px;
-	display:block;
-}
-.price:hover{
-	opacity:0.8;
-	cursor:pointer;
-}
-.price:active{
-	opacity:0.7;
-}
-.book img {
-  width: 170px;       /* smaller than card width */
-  height: 258px;
-   obacity:cover;
-  display: block;     /* needed for margin auto */
-  margin: 0 auto;     /* centers horizontally */
+
+.price {
+	background-color: #2ecc71;
+	color: #ffffff;
+	border-radius: 5px;
+	padding: 5px 10px;
+	display: inline-block;
 }
